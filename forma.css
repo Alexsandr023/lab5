@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    Font-size: 12px; 
+    /*--background-image: url("/images/fon.jpg");
+    background-position: center;
+    background-size: auto;
+    margin: 0 auto;*/
+    background-color: #f1d012;
+}
+
+h2 {
+    text-align: center;
+   }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+   }
+  
+  div {
+    margin-bottom: 10px;
+   }
+  
+  label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 20px;
+    padding: 30px;
+    font-size: 30px; 
+}
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.date-form {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .date-input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+.image-container {
+    display: flex;
+  }
+  
+  .image-container img {
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 24px 
+  }
+  

@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="forma.css">
+  <form action="submit.php" method="post"></form>
+</head>
+<body>
+  <h2>Лабораторная работа №5</h2>
+  <h2>Форма покупки автомобильных колес</h2>
+  <form>
+    <div>
+      <label for="type">Тип шины</label>
+      <br>
+      <input type="radio" id="winter" name="type" value="winter">
+      <label for="winter">Зимнияя нешипованная</label>
+      <br>
+      <input type="radio" id="winter2" name="type" value="winter2">
+      <label for="winter2">Зимняя шипованная</label>
+      <br>
+      <input type="radio" id="summer" name="type" value="summer">
+      <label for="summer">Летние</label>
+      <br>
+      <input type="radio" id="allSeason" name="type" value="allSeason">
+      <label for="allSeason">Всесезонные</label>
+    </div>
+    <br>
+    <div>
+      <label for="manufacturer">Производитель:</label>
+      <select id="manufacturer" name="manufacturer">
+        <option value="manufacturer1">KAMA</option>
+        <option value="manufacturer2">GOODYEAR</option>
+        <option value="manufacturer3">Michelin</option>
+        <option value="manufacturer1">БЕЛШИНА</option>
+        <option value="manufacturer2">Rosava</option>
+        <option value="manufacturer3">NOKIAN</option>
+      </select>
+    </div>
+    <br>
+    <br>
+    <div>
+        <label for="manufacturer">Диаметр, дюймы</label>
+        <select id="manufacturer" name="manufacturer">
+          <option value="manufacturer1">R13</option>
+          <option value="manufacturer2">R14</option>
+          <option value="manufacturer3">R15</option>
+          <option value="manufacturer1">R16</option>
+          <option value="manufacturer2">R17</option>
+          <option value="manufacturer3">R18</option>
+          <option value="manufacturer1">R19</option>
+          <option value="manufacturer2">R20</option>
+          <option value="manufacturer3">R21</option>
+        </select>
+      </div>
+    <br>
+    <div>
+      <label for="delivery">Нужна доставка?</label>
+      <input type="checkbox" id="delivery" name="delivery" value="yes">
+      <label for="delivery">Да</label>
+      <br>
+     <div class="form-group">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+     </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">Телефон:</label>
+        <input type="text" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">Адрес доставки:</label>
+        <input type="text" id="phone" name="phone" required>
+    </div>
+    <form class="date-form">
+        <label for="date">Выберите дату доставки</label>
+        <input type="date" id="date" name="date" class="date-input">
+        <input type="submit" value="Заказать">
+    </form>
+    </div>
+    <br>
+  <div style="position:absolute; bottom:0px; background-color: #f1d012;margin: 10px;font-weight: bold; color: green;">
+    Контакты разработчика <a href="a.gubanov97@ya.ru">Студент гр.ЦПОИС-23п А.С.Губанов </a></div>
+</body>
+</html>
